@@ -1,0 +1,15 @@
+{
+    "name": "win11/quiz-asm",
+    "autoload": {
+        "psr-4": {
+            "Models\\": "./Models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tus204",
+            "email": "tuddaph43370@fpt.edu.vn"
+        }
+    ],
+    "require": {}
+}

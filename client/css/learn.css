@@ -1,0 +1,165 @@
+.learn {
+    margin-top: 90px;
+    display: flex;
+    gap: 0 10px;
+    padding-left: 20px;
+}
+.learn-videos {
+    width: 75vw;
+    height: 800px;
+}
+.learn-lesson {
+    max-width: 20vw;
+    position: fixed;
+    right: 2%;
+}
+.quiz-item-question {
+    font-size: 24px;
+    font-weight:500;
+    margin-bottom: 10px;
+    max-width:600px ;
+    min-width: 600px;
+    max-width: 1000px;
+}
+.quiz-item-qa {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.quiz-and-answer {
+    margin: 20px 0;
+    padding: 20px;
+}
+.quiz-item-answer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    min-width: 600px;
+    max-width: 1000px;
+}
+.item-answer-1 {
+    background-color: #cacaca;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+}
+.item-answer {
+    /* background-color: #cacaca;
+    background-color: #cacaca;
+    display: block;
+    width: 100%;
+    padding: 14px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 400; */
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 14px 24px;
+    flex: 1;
+    cursor: pointer;
+    background-color: #cacaca;
+}
+.item-answer-1:hover {
+    opacity: 0.8;
+    transition: 0.2s linear;
+    border-radius: 4px;
+}
+.item-answer.success {
+    background-color: #2ce642;
+    color: #fff;
+}
+.item-answer.error {
+    background-color: #ff3f34;
+    color: #fff;
+}
+.correctanswer {
+    min-width: 600px;
+    max-width: 1000px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+.correctanswer.success {
+    background-color: rgba(15, 187, 250,0.8);
+    color: #1e272e;
+}
+.correctanswer.error {
+    background-color: rgb(255, 61, 51, 0.8);
+}
+.correctanswer span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.corrent-content {
+    line-height: 1.6;
+}
+.sub-courses {
+    display: none;
+    margin-left: 10px;
+}
+
+.course-learn.active .sub-courses {
+    display: block;
+}
+
+.course-learn {
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 350px;
+    background-color: #f7f8fa;
+    border-bottom: 1px solid #dedfe0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.course-learn h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.course-learn p {
+    color: #777;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.sub-course {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sub-course h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.sub-course p {
+    color: #888;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.correct-answer {
+    color: rgb(6, 241, 6);
+}
+
+.incorrect-answer {
+    color: red;
+}

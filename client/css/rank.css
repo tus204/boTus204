@@ -1,0 +1,49 @@
+.rank {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.rank-total {
+  flex: 1;
+}
+.rank h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.rank table {
+  width: 60%;
+  margin: 20px auto ;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.rank th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.rank th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.rank tr:hover {
+  background-color: #f1f1f1;
+}
+
+.rank tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.rank img {
+  width: 200px;
+  height: 200px;
+}

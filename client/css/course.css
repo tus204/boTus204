@@ -1,0 +1,149 @@
+.course, .quiz {
+     max-width: 1740px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: space-between;
+     margin-left: 96px;
+     padding: 20px;
+}
+.course {
+     flex-direction: row;
+}
+.course-content {
+    max-width: 60%;
+}
+.course-state {
+     max-width: 530px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.course-state h5 {
+     text-align: center;
+     font-size: 32px;
+     font-weight: 400;
+     margin: 20px 0;
+     opacity: 0.8;
+     color: #f05123;
+}
+.course-btn {
+     min-width: 180px;
+     padding: 10px 16px;
+     font-size: 16px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+}
+.course-name {
+     font-size: 32px;
+     font-weight: 700;
+     margin: 16px 0 22px 0;
+}
+
+.course-desc {
+     color: #333;
+     font-size: 16px;
+     line-height: 1.6;
+}
+.course-title {
+     font-size: 20px;
+     font-weight: 700;
+     margin: 36px 0 8px;
+}
+.course-text {
+margin-left: 20px;
+     font-size: 14px;
+     margin-bottom: 12px;
+     color: #333;
+     list-style: none;
+     line-height: 1.6;
+}
+.course-video {
+     margin-top: 20px;
+     width:512px;
+     height:288px;
+     border-radius: 8px;
+     margin-right: 20px;
+}
+.course-info {
+     line-height: 1.8;
+}
+/* quiz */
+.quiz-heading {
+     font-size: 32px;
+     font-weight: 700;
+     margin: 16px 0 22px 0;
+}
+.quiz-des {
+     color: rgba(0,0,0,0.8);
+     font-size: 18px;
+     line-height: 1.6;
+}
+.quiz-info {
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+.quiz-text {
+     font-size: 16px;
+}
+.quiz-text span {
+     font-weight: bold;
+}
+.quiz-time {
+     text-align: right;
+}
+.quiz-time span {
+     font-weight: bold;
+}
+.question-list {
+     margin-top: 20px;
+     border: 1px solid #ccc;
+     padding: 10px;
+     display: flex;
+     gap: 100px;
+     flex-wrap: wrap;
+}
+.question-item {
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+}
+.question {
+     font-size: 16px;
+     margin-bottom: 5px;
+}
+.options {
+     display: flex;
+     flex-direction: column;
+     gap: 5px 0;
+     list-style: none;
+     margin-bottom: 10px;
+}
+.options li input {
+     margin-right: 5px;
+}
+.quiz-btn {
+     margin:0 20px;
+     padding:15px 25px;
+     background-color: blue;
+     color: #fff;
+     border-radius: 4px;
+}
+.check-point {
+     margin-top: 100px;
+     margin-left: 96px;
+}
+.result {
+     margin: 10px 0;
+     font-size: 18px;
+     font-weight: bold;
+     color: #333;
+}
+.result span {
+     color: #f00;
+}
