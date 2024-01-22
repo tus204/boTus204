@@ -1,7 +1,8 @@
 {
-    "name": "win11/quiz-asm",
+    "name": "admin/quiz-asm",
     "autoload": {
         "psr-4": {
+            "Admin\\QuizAsm\\": "src/",
             "Models\\": "./Models/",
             "Core\\": "./Core/",
             "Controllers\\": "./client/Controllers/",
@@ -10,8 +11,8 @@
     },
     "authors": [
         {
-            "name": "tus204",
-            "email": "tuddaph43370@fpt.edu.vn"
+            "name": "Nguyen Quang Huy",
+            "email": "kaisa13102004@gmail.com"
         }
     ],
     "require": {}

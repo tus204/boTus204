@@ -21,14 +21,6 @@ class HomeUser {
                             <a href="index.php?act=">Trang chủ</a>
                         </div>
                         <div class="sidebar-item">
-                            <i class="fa-solid fa-road"></i>
-                            <a href="index.php?act=learning-path">Lộ trình</a>
-                        </div>
-                        <div class="sidebar-item">
-                            <i class="fa-solid fa-paste"></i>
-                            <a href="index.php?act=blog">Bài viết</a>
-                        </div>
-                        <div class="sidebar-item">
                             <i class="fa-solid fa-ranking-star"></i>
                             <a href="index.php?act=rank">Xếp hạng</a>
                         </div>
@@ -61,9 +53,7 @@ class HomeUser {
                     ?>                
                     <section class="lesson">
                         <h2 class="lesson-title">
-                            <?php                                
-                                echo $category['category_name'];
-                            ?>
+                        Danh sách bài tập
                         </h2>                        
                         <div class="lesson-list">
                             <?php

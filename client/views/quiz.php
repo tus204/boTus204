@@ -12,14 +12,6 @@
                         <a href="index.php?act=home">Trang chủ</a>
                     </div>
                     <div class="sidebar-item">
-                        <i class="fa-solid fa-road"></i>
-                        <a href="index.php?act=learning-path">Lộ trình</a>
-                    </div>
-                    <div class="sidebar-item">
-                        <i class="fa-solid fa-paste"></i>
-                        <a href="index.php?act=blog">Bài viết</a>
-                    </div>
-                    <div class="sidebar-item">
                         <i class="fa-solid fa-ranking-star"></i>
                         <a href="index.php?act=rank">Xếp hạng</a>
                     </div>
