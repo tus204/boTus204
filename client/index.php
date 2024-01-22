@@ -1,4 +1,7 @@
 <?php
+
+use Models\QuizModel;
+
     ini_set('display_errors', 1);
     session_start();
     ob_start();
@@ -323,7 +326,7 @@
             case 'listQuiz':
                 if (isset($_GET['id'])) {
                     $courseId = $_GET['id'];  
-                    $quizes = quiz::getListQuizByCourseId($courseId);                                      
+                    $quizes = QuizModel::getListQuizByCourseId($courseId);                                      
                 }
                 include_once('./views/listQuiz.php');
                 break;

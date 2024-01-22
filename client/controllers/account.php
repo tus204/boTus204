@@ -1,6 +1,5 @@
 <?php
     session_start();
-    include '../../models/pdo.php';
     // ket noi database
     $conn = pdo_get_connection();
     if (!$conn) {

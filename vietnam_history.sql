@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 11, 2023 lúc 02:06 AM
+-- Thời gian đã tạo: Th1 21, 2024 lúc 08:11 AM
 -- Phiên bản máy phục vụ: 10.4.28-MariaDB
 -- Phiên bản PHP: 8.2.4
 
@@ -141,7 +141,8 @@ CREATE TABLE `course` (
 --
 
 INSERT INTO `course` (`course_id`, `desc`, `course_name`, `title`, `content`, `video`, `image`, `category_id`) VALUES
-(32, 'TÓM TẮT PHONG TRÀO DÂN TỘC DÂN CHỦ Ở VIỆT NAM TỪ NĂM 1919 ĐẾN NĂM 1930', 'Chương 1: Việt Nam từ 1919 đến 1930', 'TÓM TẮT PHONG TRÀO DÂN TỘC DÂN CHỦ Ở VIỆT NAM TỪ NĂM 1919 ĐẾN NĂM 1930', '<p>– Trình bày được những nét chính của tình hình thế giới sau chiến tranh thế giới thứ nhất có ảnh hưởng tới Việt Nam (các nước tư bản thắng trận họp tại Véc-xai phân chia lại thế giới; bước phát triển mới của phong trào cộng sản và công nhân quốc tế).</p><p>– Trình bày được Nội dung Chương trình khai thác thuộc địa lần thứ  hai của thực dân Pháp ở Đông Dương, cùng với các chính sách về chính trị, văn hóa và giáo dục.</p><p>– Tóm tắt được sự biến đổi về mặt kinh tế và xã hội Việt Nam; phân tích được địa vị kinh tế, thái độ chính trị và khả năng cách mạng của mỗi giai cấp, tầng lớp trong xã hội Việt Nam thời thuộc địa; rút ra được mâu thuẫn chủ yếu trong xã hội Việt Nam lúc đó.</p><p>– Trình bày được điều kiện lịch sử và các hoạt động tiêu biểu của phong trào yêu nước: Hoạt động của người Việt Nam yêu nước ở nước ngoài (Trung Quốc và Pháp), những hoạt động của tư sản và tiểu tư sản, phong trào đấu tranh của công nhân.</p><p>– Nêu được những hoạt động và phân tích vai trò của Nguyễn Ái Quốc đối với cách mạng Việt Nam.</p><p>– Trình bày được sự ra đời, hoạt động và vai trò của các tổ chức cách mạng: Hội Việt Nam Cách mạng Thanh niên, Tân Việt Cách mạng đảng, Việt Nam Quốc dân đảng.</p><p>– Phân tích được nguyên nhân thất bại và ý nghĩa lịch sử của khởi nghĩa Yên Bái.</p><p>– Trình bày được sự phát triển của phong trào công nhân sau Chiến tranh thế giới thứ nhất</p><p>– Trình bày được nguyên nhân và sự xuất hiện của ba tổ chức cộng sản năm 1929.</p><p>– Trình bày được hoàn cảnh lịch sử và nội dung Hội nghị thành lập Đảng Cộng sản Việt Nam. Phân tích được ý nghĩa sự ra đời của Đảng.</p><p>– Phân tích được nội dung Cương lĩnh chính trị đầu tiên của Đảng, đặc biệt làm rõ tính đúng đắn và sáng tạo của Cương lĩnh.</p><p>– .Phân tích được vai trò của Nguyễn Ái Quốc đối với cách mạng Việt Nam từ sau Chiến tranh thế giới thứ nhất đến đầu năm 1930.</p><p>– Phân biệt được các khái niệm: lý luận cách mạng giải phóng dân tộc; cách mạng tư sản dân quyền, cách mạng thổ địa (trong Cương lĩnh chính trị đầu tiên của Đảng, Luận cương lĩnh chính trị tháng 10-1930); tự phát, tự giác (trong phong trào công nhân), lực lượng, động lực cách mạng.</p>', 'BI-2ZsxZaHE', '../upload/1.jpg', 5);
+(32, 'TÓM TẮT PHONG TRÀO DÂN TỘC DÂN CHỦ Ở VIỆT NAM TỪ NĂM 1919 ĐẾN NĂM 1930', 'Chương 1: Việt Nam từ 1919 đến 1930', 'TÓM TẮT PHONG TRÀO DÂN TỘC DÂN CHỦ Ở VIỆT NAM TỪ NĂM 1919 ĐẾN NĂM 1930', '<p>– Trình bày được những nét chính của tình hình thế giới sau chiến tranh thế giới thứ nhất có ảnh hưởng tới Việt Nam (các nước tư bản thắng trận họp tại Véc-xai phân chia lại thế giới; bước phát triển mới của phong trào cộng sản và công nhân quốc tế).</p><p>– Trình bày được Nội dung Chương trình khai thác thuộc địa lần thứ  hai của thực dân Pháp ở Đông Dương, cùng với các chính sách về chính trị, văn hóa và giáo dục.</p><p>– Tóm tắt được sự biến đổi về mặt kinh tế và xã hội Việt Nam; phân tích được địa vị kinh tế, thái độ chính trị và khả năng cách mạng của mỗi giai cấp, tầng lớp trong xã hội Việt Nam thời thuộc địa; rút ra được mâu thuẫn chủ yếu trong xã hội Việt Nam lúc đó.</p><p>– Trình bày được điều kiện lịch sử và các hoạt động tiêu biểu của phong trào yêu nước: Hoạt động của người Việt Nam yêu nước ở nước ngoài (Trung Quốc và Pháp), những hoạt động của tư sản và tiểu tư sản, phong trào đấu tranh của công nhân.</p><p>– Nêu được những hoạt động và phân tích vai trò của Nguyễn Ái Quốc đối với cách mạng Việt Nam.</p><p>– Trình bày được sự ra đời, hoạt động và vai trò của các tổ chức cách mạng: Hội Việt Nam Cách mạng Thanh niên, Tân Việt Cách mạng đảng, Việt Nam Quốc dân đảng.</p><p>– Phân tích được nguyên nhân thất bại và ý nghĩa lịch sử của khởi nghĩa Yên Bái.</p><p>– Trình bày được sự phát triển của phong trào công nhân sau Chiến tranh thế giới thứ nhất</p><p>– Trình bày được nguyên nhân và sự xuất hiện của ba tổ chức cộng sản năm 1929.</p><p>– Trình bày được hoàn cảnh lịch sử và nội dung Hội nghị thành lập Đảng Cộng sản Việt Nam. Phân tích được ý nghĩa sự ra đời của Đảng.</p><p>– Phân tích được nội dung Cương lĩnh chính trị đầu tiên của Đảng, đặc biệt làm rõ tính đúng đắn và sáng tạo của Cương lĩnh.</p><p>– .Phân tích được vai trò của Nguyễn Ái Quốc đối với cách mạng Việt Nam từ sau Chiến tranh thế giới thứ nhất đến đầu năm 1930.</p><p>– Phân biệt được các khái niệm: lý luận cách mạng giải phóng dân tộc; cách mạng tư sản dân quyền, cách mạng thổ địa (trong Cương lĩnh chính trị đầu tiên của Đảng, Luận cương lĩnh chính trị tháng 10-1930); tự phát, tự giác (trong phong trào công nhân), lực lượng, động lực cách mạng.</p>', 'BI-2ZsxZaHE', '../upload/1.jpg', 5),
+(34, 'ccc', 'Chương 2', 'tieu de', '<p>-a</p><p>-c</p>', 'vbnnn', '../upload/anh1.jpg', 5);
 
 -- --------------------------------------------------------
 
@@ -185,7 +186,8 @@ CREATE TABLE `lesson_cat` (
 
 INSERT INTO `lesson_cat` (`lesson_cat_id`, `lesson_cat_name`, `course_id`) VALUES
 (6, 'Bài 1: Phong chào dân tộc dân chủ ở Việt Nam từ năm 1919 đến 1930', 32),
-(7, 'Bài 2: Phong chào dân tộc ở Việt Nam từ năm 1925 đến năm 1930', 32);
+(7, 'Bài 2: Phong chào dân tộc ở Việt Nam từ năm 1925 đến năm 1930', 32),
+(8, 'Bài 1', 34);
 
 -- --------------------------------------------------------
 
@@ -299,7 +301,9 @@ INSERT INTO `totalpoints` (`totalpoint_id`, `status`, `total_points`, `quiz_id`,
 (196, 0, 1, 40, 8),
 (197, 0, 1, 40, 8),
 (198, 0, 4, 40, 8),
-(199, 0, 2, 40, 8);
+(199, 0, 2, 40, 8),
+(200, 0, 1, 40, 8),
+(201, 0, 2, 40, 11);
 
 -- --------------------------------------------------------
 
@@ -325,7 +329,8 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`user_id`, `full_name`, `email`, `password`, `mobile`, `role`, `image`, `gender`) VALUES
 (8, 'bố Tú', 'botu@gmail.com', '$2y$10$F7yILoZTH/vrQrzK/EaX6ONC.Q3ml.Gq/k2TGLKPAs015yd5rWiCC', 974566306, 'Admin', '../upload/4a4c29807499a1a8085e9bde536a570a.jpg', 'Nam'),
 (9, 'bố Tú 2', 'botu2@gmail.com', '$2y$10$oF9KCpKe/C9c62x6rtL5C.MzakGvLyTNoQDPWjl78EqKzGV/hD5ii', 88888888, 'Admin', '../upload/meme.jpg', 'Nữ'),
-(10, 'anh tu', 'cccc@cc.com', '$2y$10$3vUj2Qk7pq9FTYo.T.ku8uB9O.tkQshiDUmekK7hvPobT8.91BGoS', NULL, 'Client', NULL, NULL);
+(10, 'anh tu', 'cccc@cc.com', '$2y$10$3vUj2Qk7pq9FTYo.T.ku8uB9O.tkQshiDUmekK7hvPobT8.91BGoS', NULL, 'Client', NULL, NULL),
+(11, 'Nguyen Quang Huy', 'huy@gmail.com', '$2y$10$HGm/csnWU8bLeMvKHYmopOv.WGgCM5azKqFMvflqZhT49tqPGZTmW', NULL, 'Client', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -346,12 +351,18 @@ CREATE TABLE `user_answers` (
 --
 
 INSERT INTO `user_answers` (`user_answer_id`, `user_id`, `question_id`, `answer_id`, `quiz_id`) VALUES
-(128, 8, 40, 155, 40),
-(129, 8, 41, 160, 40),
-(130, 8, 42, 166, 40),
-(131, 8, 43, 168, 40),
-(132, 8, 44, 174, 40),
-(133, 8, 48, 187, 40);
+(134, 8, 40, 155, 40),
+(135, 8, 41, 159, 40),
+(136, 8, 42, 163, 40),
+(137, 8, 43, 168, 40),
+(138, 8, 44, 171, 40),
+(139, 8, 48, 187, 40),
+(140, 11, 40, 155, 40),
+(141, 11, 41, 160, 40),
+(142, 11, 42, 163, 40),
+(143, 11, 43, 167, 40),
+(144, 11, 44, 172, 40),
+(145, 11, 48, 190, 40);
 
 -- --------------------------------------------------------
 
@@ -369,7 +380,9 @@ CREATE TABLE `user_course` (
 --
 
 INSERT INTO `user_course` (`course_id`, `user_id`) VALUES
-(32, 8);
+(32, 8),
+(32, 11),
+(34, 11);
 
 -- --------------------------------------------------------
 
@@ -378,18 +391,18 @@ INSERT INTO `user_course` (`course_id`, `user_id`) VALUES
 --
 
 CREATE TABLE `user_lesson` (
-  `user_id` int(11) NOT NULL,
   `lesson_id` int(11) NOT NULL,
-  `status` tinyint(4) NOT NULL DEFAULT 0
+  `user_id` int(11) NOT NULL,
+  `status` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `user_lesson`
 --
 
-INSERT INTO `user_lesson` (`user_id`, `lesson_id`, `status`) VALUES
+INSERT INTO `user_lesson` (`lesson_id`, `user_id`, `status`) VALUES
 (8, 8, 1),
-(8, 9, 1);
+(9, 8, 1);
 
 -- --------------------------------------------------------
 
@@ -398,17 +411,10 @@ INSERT INTO `user_lesson` (`user_id`, `lesson_id`, `status`) VALUES
 --
 
 CREATE TABLE `user_quiz` (
-  `user_id` int(11) NOT NULL,
   `quiz_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
   `status` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Đang đổ dữ liệu cho bảng `user_quiz`
---
-
-INSERT INTO `user_quiz` (`user_id`, `quiz_id`, `status`) VALUES
-(8, 40, 1);
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -523,15 +529,15 @@ ALTER TABLE `user_course`
 -- Chỉ mục cho bảng `user_lesson`
 --
 ALTER TABLE `user_lesson`
-  ADD KEY `fk_userLesson_1` (`lesson_id`),
+  ADD PRIMARY KEY (`lesson_id`),
   ADD KEY `fk_userLesson_2` (`user_id`);
 
 --
 -- Chỉ mục cho bảng `user_quiz`
 --
 ALTER TABLE `user_quiz`
-  ADD KEY `fk_userQuiz_1` (`user_id`),
-  ADD KEY `fk_userQuiz_2` (`quiz_id`);
+  ADD PRIMARY KEY (`quiz_id`),
+  ADD KEY `fk_userQuiz_2` (`user_id`);
 
 --
 -- AUTO_INCREMENT cho các bảng đã đổ
@@ -559,7 +565,7 @@ ALTER TABLE `comments`
 -- AUTO_INCREMENT cho bảng `course`
 --
 ALTER TABLE `course`
-  MODIFY `course_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `course_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT cho bảng `lesson`
@@ -571,7 +577,7 @@ ALTER TABLE `lesson`
 -- AUTO_INCREMENT cho bảng `lesson_cat`
 --
 ALTER TABLE `lesson_cat`
-  MODIFY `lesson_cat_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `lesson_cat_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT cho bảng `posts`
@@ -595,19 +601,19 @@ ALTER TABLE `quiz`
 -- AUTO_INCREMENT cho bảng `totalpoints`
 --
 ALTER TABLE `totalpoints`
-  MODIFY `totalpoint_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=200;
+  MODIFY `totalpoint_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=202;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT cho bảng `user_answers`
 --
 ALTER TABLE `user_answers`
-  MODIFY `user_answer_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=134;
+  MODIFY `user_answer_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=146;
 
 --
 -- Các ràng buộc cho các bảng đã đổ
@@ -706,8 +712,8 @@ ALTER TABLE `user_lesson`
 -- Các ràng buộc cho bảng `user_quiz`
 --
 ALTER TABLE `user_quiz`
-  ADD CONSTRAINT `fk_userQuiz_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`),
-  ADD CONSTRAINT `fk_userQuiz_2` FOREIGN KEY (`quiz_id`) REFERENCES `quiz` (`quiz_id`);
+  ADD CONSTRAINT `fk_userQuiz_1` FOREIGN KEY (`quiz_id`) REFERENCES `quiz` (`quiz_id`),
+  ADD CONSTRAINT `fk_userQuiz_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

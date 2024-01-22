@@ -1,15 +1,15 @@
 <?php
 
-namespace Models;
+namespace Core;
 
 use \PDO;
 use \PDOException;
 
 class Database {
-    private $dburl = "mysql:host=localhost;dbname=vietnam_history;charset=utf8";
+    private $dburl = "mysql:host=localhost;dbname=quiz_asm;charset=utf8";
     private $username = 'root';
     private $password = '';
-    private $conn;
+    protected $conn;
 
     function __construct()
     {
@@ -17,12 +17,12 @@ class Database {
     }
 
     // Kết nối đến db
-    function pdo_get_connection()
+    protected function pdo_get_connection()
     {
         try {
             $this->conn = new PDO($this->dburl, $this->username, $this->password);
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo 'Connection successfully';
+            // echo 'Connection successfully';
         } catch(PDOException $e) {
             echo 'Connection failed: ' . $e->getMessage();
         }   
@@ -35,7 +35,7 @@ class Database {
      * @param array $args mảng giá trị cung cấp cho các tham số của $sql
      * @throws PDOException lỗi thực thi câu lệnh
      */
-    function pdo_execute($sql)
+    protected function pdo_execute($sql)
     {
         $sql_args = array_slice(func_get_args(), 1);
         try {
@@ -43,12 +43,10 @@ class Database {
             $stmt->execute($sql_args);
         } catch (PDOException $e) {
             throw $e;
-        } finally {
-            unset($this->conn);
         }
     }
 
-    function pdo_execute_last_result($sql)
+    protected function pdo_execute_last_result($sql)
     {
         $sql_args = array_slice(func_get_args(), 1);
         try {
@@ -57,8 +55,6 @@ class Database {
             return $this->conn->lastInsertId();
         } catch (PDOException $e) {
             throw $e;
-        } finally {
-            unset($this->conn);
         }
     }
 
@@ -69,7 +65,7 @@ class Database {
      * @return array mảng các bản ghi
      * @throws PDOException lỗi thực thi câu lệnh
      */
-    function pdo_query($sql)
+    protected function pdo_query($sql)
     {
         $sql_args = array_slice(func_get_args(), 1);
         try {
@@ -79,8 +75,6 @@ class Database {
             return $rows;
         } catch (PDOException $e) {
             throw $e;
-        } finally {
-            unset($this->conn);
         }
     }
     /**
@@ -90,9 +84,12 @@ class Database {
      * @return array mảng chứa bản ghi
      * @throws PDOException lỗi thực thi câu lệnh
      */
-    function pdo_query_one($sql)
+    protected function pdo_query_one($sql)
     {
         $sql_args = array_slice(func_get_args(), 1);
+        if ($this->conn === null) {
+            die('PDO is not initialized.');
+        }
         try {
             $stmt = $this->conn->prepare($sql);
             $stmt->execute($sql_args);
@@ -100,8 +97,6 @@ class Database {
             return $row;
         } catch (PDOException $e) {
             throw $e;
-        } finally {
-            unset($this->conn);
         }
     }
     /**
@@ -111,7 +106,7 @@ class Database {
      * @return giá trị
      * @throws PDOException lỗi thực thi câu lệnh
      */
-    function pdo_query_value($sql)
+    protected function pdo_query_value($sql)
     {
         $sql_args = array_slice(func_get_args(), 1);
         try {
@@ -121,8 +116,6 @@ class Database {
             return array_values($row)[0];
         } catch (PDOException $e) {
             throw $e;
-        } finally {
-            unset($this->conn);
         }
     }
 }
@@ -240,3 +233,4 @@ class Database {
 //         unset($conn);
 //     }
 // }
+

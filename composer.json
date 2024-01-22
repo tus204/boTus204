@@ -2,7 +2,10 @@
     "name": "win11/quiz-asm",
     "autoload": {
         "psr-4": {
-            "Models\\": "./Models/"
+            "Models\\": "./Models/",
+            "Core\\": "./Core/",
+            "Controllers\\": "./client/Controllers/",
+            "Views\\": "./client/Views/"
         }
     },
     "authors": [
